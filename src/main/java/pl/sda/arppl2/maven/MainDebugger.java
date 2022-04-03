@@ -27,10 +27,10 @@ public class MainDebugger {
         // Deklaracje z inicjalizacją:
         int zmiennaZWartosciaCalkowita = 5;
 
-        zmiennaZWartosciaCalkowita = zmiennaZWartosciaCalkowita +10;
+        zmiennaZWartosciaCalkowita = zmiennaZWartosciaCalkowita + 10;
         zmiennaZWartosciaCalkowita = zmiennaZWartosciaCalkowita * 23;
         zmiennaZWartosciaCalkowita = zmiennaZWartosciaCalkowita / 7;
-        zmiennaZWartosciaCalkowita = zmiennaZWartosciaCalkowita +10;
+        zmiennaZWartosciaCalkowita = zmiennaZWartosciaCalkowita + 10;
 
         // to jest wypisanie treści tekstowej
         System.out.println("zmiennaZWartosciaCalkowita"); // zmiennaZWartosciaCalkowita
@@ -39,3 +39,4 @@ public class MainDebugger {
         System.out.println(zmiennaZWartosciaCalkowita); // 59
         System.err.println("to jest inny wypis");
     }
+}
